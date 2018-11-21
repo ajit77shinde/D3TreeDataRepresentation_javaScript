@@ -1,0 +1,9 @@
+print screen in A3 size page
+print area should be A3 page size, if tree beound the
+  screen it should auto arrange the trre vartical moed  
+
+https://stackoverflow.com/questions/16649943/css-to-set-a4-paper-size
+http://jsfiddle.net/2wk6Q/1/
+https://codepen.io/rafaelcastrocouto/pen/LFAes
+https://stackoverflow.com/questions/1545849/possible-to-force-printer-setup-paper-size-in-javascript
+https://social.technet.microsoft.com/Forums/en-US/5d62d6a8-9f52-4b03-95c8-35f54f334e91/how-do-you-chnge-the-page-size-from-a4-to-a3-on-microsoft-word-2007?forum=word

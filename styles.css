@@ -1,0 +1,98 @@
+@page {
+    size: A3 landscape;
+    margin: 10%;
+}
+
+.node {
+    cursor: pointer;
+}
+.node circle {
+    fill: #fff;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+.node text {
+    font: 10px sans-serif;
+}
+.link {
+    fill: none;
+    stroke: #ccc;
+    stroke-width: 1.5px;
+}
+
+body {
+    overflow: hidden;
+}
+
+
+
+/* @media print and (width: 29.7cm) and (height: 42.0cm) {
+     @page {
+        margin: 3cm;
+     }
+} */
+
+/* body {
+  background: rgb(204,204,204); 
+}
+page {
+  background: white;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 0.5cm;
+  box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+}
+page[size="A3"] {  
+  width: 29.7cm;
+  height: 42.0cm; 
+}
+page[size="A4"][layout="portrait"] {
+  width: 29.7cm;
+  height: 21cm;  
+}
+@media print {
+  body, page {
+    margin: 0;
+    box-shadow: 0;
+  }
+} */
+
+/* var css = '@page { size: landscape; }',
+    head = document.head || document.getElementsByTagName('head')[0],
+    style = document.createElement('style');
+
+style.type = 'text/css';
+style.media = 'print';
+
+if (style.styleSheet){
+  style.styleSheet.cssText = css;
+} else {
+  style.appendChild(document.createTextNode(css));
+}
+
+head.appendChild(style);
+
+window.print();
+ */
+
+
+
+/* body {
+    background-color: powderblue;
+}
+h1 {
+    color: blue;
+}
+p {
+    color: red;
+/* } */
+
+/* @media print {
+    body{
+         width: 29.7cm;
+         height: 42.0cm;
+         /* margin: 30mm 45mm 30mm 45mm;  */
+        /* change the margins as you want them to be. */
+   } 
+} */
+
